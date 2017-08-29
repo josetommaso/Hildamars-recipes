@@ -1,0 +1,173 @@
+body {
+	background: url("../images/patterns/vintageleaves.png") fixed;
+}
+
+
+header {
+	padding-top: 30px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.header {
+	background: url("../images/patterns/pinkdust.png");
+	height: 7em;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.logo_top {
+	padding-left: 6em;
+}
+
+.nav {
+	float: right;
+}
+
+.nav_list {
+	padding-right: 10em;
+	font-size: 25px;
+}
+
+.nav-link {
+	margin-left: 25px;
+	margin-right: 25px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.nav-link:hover {
+	transition: border 1s ease;
+	border-bottom: 6px solid #E6E6E6;
+
+}
+
+/*########################
+########## MAIN ##########
+##########################*/
+
+.mySlides {
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.slider {
+	height: 550px;
+	background: url("../images/patterns/pinkdust.png");
+}
+
+.img_recipes {
+	width: 300px;
+}
+
+.second {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-top: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc;
+}
+
+.title {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	
+}
+
+.recipes_container {
+	background: url("../images/patterns/pinkdust.png");
+	padding-top: 30px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 30px;
+}
+
+.img_recipes {
+	border-radius: 5px;
+}
+
+.recipes_title {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+}
+
+.recipes p {
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.recipes {
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+.request img {
+	width: 18px;
+	padding-top: 3px;
+	padding-right: 3px;
+	float: left;
+}
+
+.btn-info {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: -60px;
+}
+
+
+/*########################
+########## FOOTER ########
+##########################*/
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo_footer {
+}
+
+.nav_footer {
+	list-style-type: none;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+
+.social {
+	list-style-type: none;
+	float: none;
+	justify-content: center;
+}
+
+.fa-facebook-official {
+	color: #3B5998;
+	font-size: 30px;
+}
+
+.fa-twitter {
+	color: #1da1f2;
+	font-size: 30px;
+}
+
+.fa-instagram {
+	color: #125688;
+	font-size: 30px;
+}
+
+.user_footer {
+	margin-top: 50px;
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+}
