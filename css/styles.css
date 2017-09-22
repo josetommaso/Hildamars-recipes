@@ -25,7 +25,7 @@ header {
 }
 
 .nav_list {
-	padding-right: 10em;
+	padding-right: 5em;
 	font-size: 25px;
 }
 
@@ -38,7 +38,7 @@ header {
 
 .nav-link:hover {
 	transition: border 1s ease;
-	border-bottom: 6px solid #E6E6E6;
+	border-bottom: 3px solid #E6E6E6;
 
 }
 
@@ -46,15 +46,20 @@ header {
 ########## MAIN ##########
 ##########################*/
 
+.w3-content {
+	max-width: 100%;
+}
+
 .mySlides {
 	max-height: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 5px;
 }
 
 
 .slider {
-	height: 550px;
+	max-height: 600px;
 	background: url("../images/patterns/pinkdust.png");
 }
 
@@ -154,20 +159,52 @@ footer {
 .fa-facebook-official {
 	color: #3B5998;
 	font-size: 30px;
+
 }
 
 .fa-twitter {
 	color: #1da1f2;
 	font-size: 30px;
+	padding-left: 5px;
 }
 
 .fa-instagram {
 	color: #125688;
 	font-size: 30px;
+	padding-left: 5px;
 }
 
 .user_footer {
 	margin-top: 50px;
 	border-top: 1px solid #ccc;
 	padding-top: 20px;
+}
+
+
+@media screen and (max-width: 764px) {
+	.nav_footer {
+		text-align: center;
+		padding: 20px;
+	}
+	.w3-content {
+		max-width: 80%;
+	}
+
+} 
+
+@media screen and (max-width: 1200px) {
+	.nav_list {
+		padding-right: 0em;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.nav-link {
+		margin-left: 0px;
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	
 }
